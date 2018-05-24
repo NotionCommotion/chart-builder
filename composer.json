@@ -1,0 +1,21 @@
+{
+    "name": "notioncommotion/chart-maker",
+    "version": "0.0.1",
+    "description": "Builds charts.",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Michael Reed",
+            "email": "villascape@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "require-dev": {},
+    "autoload": {
+        "psr-4": {
+            "notioncommotion\\chart-maker\\":  "src/",
+            "notioncommotion\\chart-maker\\Tests\\":  "Tests/"
+        }
+    }
+}
